@@ -45,6 +45,7 @@
 		089B462827438D5500F85900 /* open_with_vsc_macUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = open_with_vsc_macUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		089B462C27438D5500F85900 /* open_with_vsc_macUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = open_with_vsc_macUITests.swift; sourceTree = "<group>"; };
 		089B462E27438D5500F85900 /* open_with_vsc_macUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = open_with_vsc_macUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		089B463B27438D7F00F85900 /* open-with-vsc-mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "open-with-vsc-mac-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		089B460F27438D5400F85900 /* open_with_vsc_mac */ = {
 			isa = PBXGroup;
 			children = (
+				089B463B27438D7F00F85900 /* open-with-vsc-mac-Info.plist */,
 				089B461027438D5400F85900 /* AppDelegate.swift */,
 				089B461227438D5400F85900 /* ViewController.swift */,
 				089B461427438D5500F85900 /* Assets.xcassets */,
@@ -427,6 +429,7 @@
 				DEVELOPMENT_TEAM = 7XSAKYQ965;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "open-with-vsc-mac-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -454,6 +457,7 @@
 				DEVELOPMENT_TEAM = 7XSAKYQ965;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "open-with-vsc-mac-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
